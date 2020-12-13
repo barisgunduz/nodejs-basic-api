@@ -1,0 +1,22 @@
+{
+  "name": "nodeapi-basic",
+  "version": "1.0.0",
+  "description": "A node js api",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "node",
+    "api"
+  ],
+  "author": "Barış Gündüz",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.7",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6"
+  }
+}
